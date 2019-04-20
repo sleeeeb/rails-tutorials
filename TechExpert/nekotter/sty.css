@@ -1,0 +1,67 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+
+}
+
+  color: #fff;
+  height: 90px;
+
+  width: 100%;
+body {
+}
+.header {
+  background-color: #0C316A;
+  color: #fff;
+  height: 90px;
+    position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.header-logo{ float: left;
+font-size: 36px;
+padding-top:18px;
+ padding-left:40px;
+padding-right:60px;
+padding-bottom:18px;
+}
+
+.header-list {
+  float: left; 
+}
+
+
+
+
+    .header-list li{
+
+  list-style: none;
+    float: left;
+    padding-right:20px;
+    padding-top:33px;
+    padding-bottom:33px;
+
+
+}
+
+.header-exit{ float: right;
+font-size: 26px;
+padding-top:25px;
+padding-right:40px;
+padding-bottom:25px;}
+
+.contents {
+  background-color: #CD5949;
+  height: 200px;
+    position: relative;
+}
+
+.contents h1 {
+    background-color: #CD5949;
+  height: 200px;
+  color:white;
+  text-align: center;
+line-height:200px;}

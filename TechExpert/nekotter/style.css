@@ -1,0 +1,51 @@
+
+/* 
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+
+} */
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header{ background-color: blue;
+  height: 180px;
+  width: 100%;
+
+}
+  
+.header-left {
+background-color: pink;
+  height: 180px;
+  width: 300px;
+
+  }
+  .contents{ height: 100%;
+  width: 100%;
+ background-color:gray;
+}
+
+  .left-content { background-color: red;
+  height: 100%;
+  width: 300px;
+  z-index: 1;
+}
+
+
+.footer {
+  background-color: black;
+  height: 60px;
+  position: fixed;
+  margin-left: 300px;
+  bottom: 0;
+  width: 100%;
+   z-index: 0;
+}
